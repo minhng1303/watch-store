@@ -23,7 +23,9 @@
   vertical-align: 1rem;
   /* width: 66.666%; */
 }
-
+.text-order {
+  color: #242424;
+}
 .order {
   width: 80%;
   height: auto;

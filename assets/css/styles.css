@@ -203,7 +203,6 @@ body.dark-theme {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  /*For animation dark mode*/
   transition: 0.4s;
 }
 
@@ -935,6 +934,7 @@ body.dark-theme {
 .cart__amount-content {
   display: flex;
   align-items: center;
+  color: var(--title-color) !important;
 }
 
 .cart__amount {
