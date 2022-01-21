@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800,900%7cRaleway:300,400,500,600,700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/checkout.css">
+    <title>Check Out</title>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class='bx bxs-watch nav__logo-icon'></i> Rolex
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list" style="padding-top: 15px;">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Featured</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="watch.html" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact-us.html" class="nav__link">Contact</a>
+                    </li>
+
+
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class='bx bx-shopping-bag'></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--==================== CART ====================-->
+    <div class="cart" id="cart">
+        <i class='bx bx-x cart__close' id="cart-close"></i>
+
+        <h2 class="cart__title-center">My Cart</h2>
+
+        <div class="cart__container">
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/featured1.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Jazzmaster</h3>
+                    <span class="cart__price">$1050</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/featured3.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Rose Gold</h3>
+                    <span class="cart__price">$850</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart__card">
+                <div class="cart__box">
+                    <img src="assets/img/new1.png" alt="" class="cart__img">
+                </div>
+
+                <div class="cart__details">
+                    <h3 class="cart__title">Longines Rose</h3>
+                    <span class="cart__price">$980</span>
+
+                    <div class="cart__amount">
+                        <div class="cart__amount-content">
+                            <span class="cart__amount-box">
+                                <i class='bx bx-minus'></i>
+                            </span>
+
+                            <span class="cart__amount-number">1</span>
+
+                            <span class="cart__amount-box">
+                                <i class='bx bx-plus'></i>
+                            </span>
+                        </div>
+
+                        <i class='bx bx-trash-alt cart__amount-trash'></i>
+                    </div>
+                </div>
+            </article>
+
+            <div class="cart__prices">
+                <span class="cart__prices-item">3 items</span>
+                <span class="cart__prices-total">$2880</span>
+            </div>
+            <div class="d-flex justify-content-end">
+                <a class="text-white btn btn-success" href="/checkout.html">Check Out</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="wrapper" class="d-flex flex-wrap">
+        <div class="container2 col-sm-12 col-md-7">
+            <div class="checkout">
+                <div class="payment">
+                    <div class="content">
+                        <div class="infos ">
+                            <div class="method">
+                                <h2 class="my-3">Choose a payment method</h2>
+                                <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1978060/visa.png' alt=''
+                                    class="visa">
+                                <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1978060/mastercard.png' alt=''
+                                    class="mastercard">
+                                <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/1978060/paypal.png' alt=''
+                                    class="paypal">
+                            </div> <!-- .method -->
+                            <div class="cardNumber">
+                                <p class="title">Credit card number</p><br>
+                                <input type="text" class="number">
+                                <input type="text" class="number">
+                                <input type="text" class="number">
+                                <input type="text" class="number">
+                            </div> <!-- .cardNumber -->
+                            <div class="cardHolderName">
+                                <p class="title">Card holder name</p>
+                                <input type="text">
+                            </div> <!-- cardHolderName -->
+                            <div class="expiration">
+                                <p class="title">Expiration date</p>
+                                <select>
+                                    <option>Month</option>
+                                    <option>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                </select>
+
+                                <select>
+                                    <option>Year</option>
+                                    <option>2019</option>
+                                    <option>2020</option>
+                                    <option>2021</option>
+                                </select>
+                            </div> <!-- .expiration -->
+                            <div class="security">
+                                <p class="title">Security</p>
+                                <input type="text">
+                            </div><!-- .security -->
+                            <div class="d-flex justify-content-end">
+                                <button>Checkout</button>
+                            </div>
+                        </div> <!-- .infos -->
+                    </div> <!-- .content -->
+                </div> <!-- .payment -->
+            </div> <!-- .checkout -->
+        </div> <!-- .container2 -->
+
+        <div class="container1 col-sm-12 col-md-5">
+            <div class="order">
+                <h4 class="mt-3">Your order summary</h4>
+
+                <hr>
+
+                <div class="item d-flex flex-wrap p-2">
+                    <img class="col-3 p-3" src='assets/img/featured1.png' alt=''>
+                    <div class="info col-9">
+                        <h6>Jazz Master</h6>
+                        <p class="quantity">Quantity: 1</p>
+                        <p class="price rounded">$1050</p>
+                    </div> <!-- .info -->
+                </div> <!-- .item -->
+                <hr>
+
+                <div class="item d-flex flex-wrap p-2">
+                    <img class="col-3 p-3" src='assets/img/featured3.png' alt=''>
+                    <div class="info col-9">
+                        <h6>Rose Gold</h6>
+                        <p class="quantity">Quantity: 1</p>
+                        <p class="price rounded">$850</p>
+                    </div> <!-- .info -->
+                </div> <!-- .item -->
+
+                <hr>
+
+                <div class="item d-flex flex-wrap p-2">
+                    <img class="col-3 p-3" src='assets/img/new1.png' alt=''>
+                    <div class="info col-9">
+                        <h6>Longines Rose</h6>
+                        <p class="quantity">Quantity: 1</p>
+                        <p class="price rounded">$980</p>
+                    </div> <!-- .info -->
+                </div> <!-- .item -->
+
+                <h4 class="ship">Shipping: FREE</h4>
+                <hr>
+                <h3 class="total">TOTAL: $2880</h3>
+            </div> <!-- .order -->
+        </div> <!-- .container1 -->
+
+    </div> <!-- #wrapper -->
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
